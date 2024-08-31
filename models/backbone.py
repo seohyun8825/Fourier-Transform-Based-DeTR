@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 import torch.fft
 
+
+#code taken from https://github.com/zeyuwang-zju/LFTDet
+
 class SiLU(nn.Module):
     @staticmethod
     def forward(x):
